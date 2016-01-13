@@ -68,7 +68,7 @@ var Home = React.createClass({
     return (
       <View style={styles.container}>
         <Image
-          source={{uri: movie.posters.thumbnail}}
+          source={{uri: "http://localhost:5984/myapp/100/pic100.jpg"}} 
           style={styles.thumbnail}/>
         <View style={styles.rightContainer}>
           <Text style={styles.title}>{movie.title}</Text>
